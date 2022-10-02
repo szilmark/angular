@@ -1,0 +1,13 @@
+{
+  "name": "angular-currency-filter",
+  "homepage": "https://github.com/cherryApp/angular-currency-filter",
+  "_release": "774c00e646",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "774c00e6461b161aba0422ba5236df65b68b09f9"
+  },
+  "_source": "https://github.com/cherryApp/angular-currency-filter.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/cherryApp/angular-currency-filter.git"
+}

@@ -29,7 +29,7 @@ module.exports= function( grunt ){
             }
         },
         watch: {
-            files: ['pages/**','css/**','js/**'],
+            files: ['index.html','pages/**','css/**','js/**'],
             tasks: ['fast']
         }
     } );

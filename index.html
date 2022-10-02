@@ -11,16 +11,52 @@
     
     <nav>
         <a href="pages/about.html">Rólunk</a>
+        <a target="_blank" href="http://origo.hu" >Origo</a>
+        <a href="#section1" >Section1</a>
+        <a href="#" onclick="bigSection()">Section növelése</a>
     </nav>
     
-    <article>
-        <h1>It factory tanfolyam</h1>
-        <p>HTML5 tanfolyam az IT factory gondozásában</p>
-        <img src = "https://dunaauto.hu/webdream/www/userfiles/slides/resized/431.webp"
-             style = "max-width: 300px; border: solid 5px #e0e0e0"
-             id = "img1"
-             class = "test-images">
-    </article>
+    <!-- 1. szekció -->
+    <section id="section1">
+    
+        <article>
+            <h1>Regisztráció</h1>
+            <p>Kérjük adja meg adatait</p>
+            <!--
+            <img src = "https://dunaauto.hu/webdream/www/userfiles/slides/resized/431.webp"
+                 style = "max-width: 100px; border: solid 5px #e0e0e0"
+                 id = "img1"
+                 class = "test-images">
+            -->
+        </article>
+            <!-- regisztrációs űrlap -->
+            <form novalidate method="post" action="http://nettuts.hu/host">
+                <label for="email">E-mail</label>
+                <input name="email" type="email" id="email" autofocus/>
+                <br>
+                <label for="password">Jelszó</label>
+                <input name="password" type="password" id="password"/>
+                <br>
+                <label for="szuletesiido">Születési idő</label>
+                <input name="szuletesiido" type="date" id="szuletesiido" min="1972-03-20" max="2030-01-01"/>
+                <br>
+                <label for="age1">Életkor</label>
+                <input name="ag1" type="number" id="ag1" max="100" min="18"/>
+                <br>
+                <label for="color1">Szín</label>
+                <input name="color1" type="color" id="color1"/>
+                <br>
+                <br>
+                <label for="foto1">Profilkép</label>
+                <input name="foto1" type="file" id="foto1"/>
+                <br>
+                <input type="submit" value="Regisztrálok"/>
+            </form>
+            <!-- /regisztrációs űrlap -->
+    
+    </section>
+    
+    <!-- <div style="height: 1000px">&nbsp;</div> 
     <aside style="float: left">
         <h3>oldalra csoportosított elemek</h3>
     </aside>
@@ -28,7 +64,7 @@
     <aside style="float: left">
         <h3>oldalra csoportosított elemek</h3>
     </aside>
-    
+    -->
     <footer style="position: fixed; left: 0; right: 0;bottom: 0">
         &copy; Szilágyi Márk
     </footer>

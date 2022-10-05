@@ -13,3 +13,9 @@
 input {
     border: 5px;
 }
+
+.no-validate{
+    font-size: 18px;
+    color: red;
+    height: 100px;
+}

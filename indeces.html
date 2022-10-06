@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.2.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.2.2/css/bootstrap-theme.min.css">
     <style>body{padding-top:50px;}.starter-template{padding:40px 15px;text-align:center;}</style>
-
+    <link rel="stylesheet" href="css/main.css">
     <!--[if IE]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -43,7 +43,22 @@
     <div class="container">
         <div class="starter-template">
             <h1>Hello, world!</h1>
-            <p class="lead">Now you can start your own project with <a target="_blank" href="http://getbootstrap.com/">Bootstrap 5.2.2</a>. This plugin is a fork from <a href="https://github.com/le717/brackets-html-skeleton#readme">HTML Skeleton</a>.</p>
+            <p class="sub-lead">
+                Now you can start your own project with
+                <a target="_blank" href="http://getbootstrap.com/">Bootstrap 5.2.2</a>. This plugin is a fork from
+                <a href="https://github.com/le717/brackets-html-skeleton#readme">HTML Skeleton</a>.
+            </p>
+            <div class="button-div">
+                <button class="btn-facebook" onclick="showProfile()">facebook</button>
+            </div>
+            <div class="profile-div">
+                <form role="form" class="col-xs-6">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Profilod">
+                        <input type="password" class="form-control" placeholder="Jelszó">
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 

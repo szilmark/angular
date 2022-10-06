@@ -38,4 +38,25 @@ function _q( selector ){
     //elemek kiválasztása
     var elements = document.querySelectorAll(selector);
     return elements;
+    /* kiválasztás többféleképpen:
+    elem: "tag"
+    osztály: ".osztaly"
+    ha több osztálya is van az tagnak: "nav[class~='navbar']"
+    ha azzal az osztállyal kezdődik: "nav[class|='navbar']"    
+    ha azzal az osztállyal kezdődik (szórészlet): "nav[class^  
+    ha azzal az osztállyal végződik: "nav[class$='nav']"    
+    id: "#id"
+    valamin pld.tagen belül "tag .class"
+    tulajdonság: " a[href='#'] " vagy " [data-toggle='collapse'] "
+    tulajdonságát megváltoztatni _q("a").onclick = function (){ alert ("ez itt");}
+    amikor felette van az egér: "a:hover"
+    */
+ }
+
+function showProfile(){
+    var div = document.querySelector(".profile-div");
+    if (div.classList.contains("show"))
+        div.classList.remove("show");
+    else
+        div.classList.add("show");
 }
